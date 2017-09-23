@@ -291,7 +291,7 @@ LOCAL_COPY_HEADERS_TO   := mm-audio
 LOCAL_COPY_HEADERS      := audio_extn/audio_defs.h
 
 LOCAL_MODULE := audio.primary.$(TARGET_BOARD_PLATFORM)
-
+LOCAL_PROPRIETARY_MODULE      := true
 LOCAL_MODULE_RELATIVE_PATH := hw
 
 LOCAL_MODULE_TAGS := optional
